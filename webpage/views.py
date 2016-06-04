@@ -7,3 +7,6 @@ def cooperativa_list(request):
 
 def homepage(request):
 	return render(request, 'webpage/index.html')
+
+def servicios(request):
+	return render(reuest, 'webpage/services.html')
