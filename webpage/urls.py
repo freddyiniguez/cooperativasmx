@@ -3,5 +3,5 @@ from django.conf.urls import include
 from . import views
 
 urlpatterns = [
-	url(r'^$', views.cooperativa_list, name="cooperativa_list"),
+	url(r'^$', views.homepage, name="homepage"),
 ]
