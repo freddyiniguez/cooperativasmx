@@ -17,11 +17,11 @@
 			<h1><span class="icon icon-cog"></span><a href="#">CooperativasMX</a></h1>
 			<div id="menu">
 				<ul>
-					<li class="current_page_item"><a href="#" accesskey="1" title="">Inicio</a></li>
-					<li><a href="#" accesskey="2" title="">Servicios</a></li>
-					<li><a href="#" accesskey="3" title="">Testimonios</a></li>
-					<li><a href="#" accesskey="4" title="">Acerca de nosotros</a></li>
-					<li><a href="#" accesskey="5" title="">Contacto</a></li>
+					<li><a href="{% url 'homepage' %}" accesskey="1" title="">Inicio</a></li>
+					<li><a href="{% url 'services' %}" accesskey="2" title="">Servicios</a></li>
+					<li class="current_page_item"><a href="{% url 'testimony' %}" accesskey="3" title="">Testimonios</a></li>
+					<li><a href="{% url 'about' %}" accesskey="4" title="">Acerca de nosotros</a></li>
+					<li><a href="{% url 'contact' %}" accesskey="5" title="">Contacto</a></li>
 				</ul>
 			</div>
 		</div>

@@ -55,7 +55,7 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		width: 80%;
 	}
 	
 
@@ -289,16 +289,15 @@
 /*********************************************************************************/
 	.search
 	{
-		display: inline-block;
-		position: block;
 		-webkit-appearance: none;
 		border: 0;
 		background: #fff;
 		background: rgba(255,255,255,0.75);
-		width: 100%;
+		width: 70%;
 		border-radius: 0.50em;
 		margin: 1em 0em;
 		padding: 1.50em 1em;
+		margin-right: 20px;
 		box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
 		border: solid 1px rgba(0,0,0,0.15);
 		-moz-transition: all 0.35s ease-in-out;
@@ -310,7 +309,7 @@
 		outline: none;
 	}
 
-	.search-center
+	.search-small
 	{
 	}
 		
@@ -342,7 +341,7 @@
 	{
 		overflow: hidden;
 		padding: 2em 0em;
-		background: url(images/bg01.jpg) repeat-x center top;
+		background: url({% static 'css/images/bg01.jpg' %}) repeat-x center top;
 	}
 
 	#header
