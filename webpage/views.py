@@ -9,3 +9,15 @@ def homepage(request):
 
 def services(request):
     return render(request, 'webpage/services.html')
+
+def testimony(request):
+	return render(request, 'webpage/testimony.html')
+
+def about(request):
+	return render(request, 'webpage/about.html')
+
+def contact(request):
+	return render(request, 'webpage/contact.html')
+
+def search(request):
+	return render(request, 'webpage/search.html')
